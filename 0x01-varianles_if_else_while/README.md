@@ -13,6 +13,8 @@ This directory contains C program with the usage of C conditional keyword:
 - [5-print_numbers.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-varianles_if_else_while/5-print_numbers.c)
 - [6-print_numberz.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-varianles_if_else_while/6-print_numberz.c)
 - [7-print_tebahpla.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-varianles_if_else_while/7-print_tebahpla.c)
-- [8-print_base16.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-varianles_if_else_while/7-prin_base16.c)
+- [8-print_base16.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-varianles_if_else_while/8-prin_base16.c)
 ---
+- [8-print_comb.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-varianles_if_else_while/9-prin_comb.c)
+- [100-print_comb3.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-varianles_if_else_while/100-prin_comb3.c)
 Author: [Usman Saheed (kenbil)](https://www.github.com/kenbil1119)
