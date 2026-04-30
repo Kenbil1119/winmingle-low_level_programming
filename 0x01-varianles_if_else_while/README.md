@@ -9,11 +9,10 @@ This directory contains C program with the usage of C conditional keyword:
 Prints if a randomly generated number is Positive, Negative or Zero (in a rare case)
 <details>
     <summary>**See more**</summary>
-    [**!NOTE]
-    > _This is a C code source file that print to the stdout, not a complete program_
-
-    [**!TIP]
-    > Use command to  compile code
+    \> [!NOTE]
+    \> _This is a C code source file that print to the stdout, not a complete program_
+    \> [!TIP]
+    \> Use command to  compile code
 
     ```bash
     gcc -Wall -Werror -Wextra -pedantic -std=gnu89 0-positive_or_negative.c
