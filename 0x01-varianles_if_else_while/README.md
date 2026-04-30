@@ -7,20 +7,18 @@ This directory contains C program with the usage of C conditional keyword:
 ## Code
 - [0-positive_or_negative.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-varianles_if_else_while/0-positive_or_negative.c)
 Prints if a randomly generated number is Positive, Negative or Zero (in a rare case)
-<details>
-    <summary>**See more**</summary>
-    \> [!NOTE]
-    \> _This is a C code source file that print to the stdout, not a complete program_
-    \> [!TIP]
-    \> Use command to  compile code
+> [!NOTE]
+> _This is a C code source file that print to the stdout, not a complete program_
 
-    ```bash
-    gcc -Wall -Werror -Wextra -pedantic -std=gnu89 0-positive_or_negative.c
-    ```
-    [**!CAUTION]
-    > After running the command above, it create a new executable file 'a.out' in your present path if not already existed.
-    > Any previous compilation will be override.
-</details>
+> [!TIP]
+> Use command to  compile code
+
+ ```bash
+ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 0-positive_or_negative.c
+ ```
+> [!CAUTION]
+> After running the command above, it create a new executable file 'a.out' in your present path if not already existed.
+> Any previous compilation will be override.
 
 - [1-last_digit.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-varianles_if_else_while/1-last_digit.c)
 - [2-print_alphabet.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-varianles_if_else_while/2-print_alphabet.c)
