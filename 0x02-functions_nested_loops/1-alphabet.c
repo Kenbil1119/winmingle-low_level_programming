@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - Print Alphabet
+ * print_alphabet - Print Alphabet
  * Description: Print in lowercase using only two _putchar() call
  *
- * Return: 0
+ * Return: void
  *
  * Author: Usman Saheed
  * Program: WinMingle Community C Training
