@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Prints a random number
- * Description: Prints if a randomly generated number is
- *		Positive, Negative or Zero
+ * positive_or_negative - Check number
+ * @i: Integer parameter to save number
+ * Description: Check and print if number in 'i' is Positive, Negative or Zero
  *
  * Return: 0
  *
@@ -29,5 +29,5 @@ int positive_or_negative(int i)
 		return (0);
 	}
 
-	return(0);
+	return (0);
 }
