@@ -1,84 +1,51 @@
-# 0X01-VARIABLES_IF_ELSE_WHILE
-This directory contains C program with the usage of C conditional keyword:
-- _if_
-- _else_
-- _while_
+# 0X03-DEBUGGING
+This directory contains C program which that has bugs but fixed.
 
-## Code
-- [0-positive_or_negative.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-variables_if_else_while/0-positive_or_negative.c)
+## Program Function Code
+- [0-positive_or_negative.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x03-debugging/0-positive_or_negative)
 <details>
     <summary>What it does?</summary>
-Prints if a randomly generated number is Positive, Negative or Zero (in a rare case)
+Check and print if number is Positive, Negative or Zero (in a rare case)
 </details>
 
-- [1-last_digit.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-variables_if_else_while/1-last_digit.c)
+- [2-largest_number.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x03-debugging/2-largest_number.c)
 <details>
     <summary>What it does?</summary>
-Check and print if the last digit of a randomly generated number is greater than five (n > 5), equal zero (n == 0) or equal not zero but less than six (0 < n < 6)
+Debugged
 </details>
 
-- [2-print_alphabet.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-variables_if_else_while/2-print_alphabet.c)
+- [3-convert_day.c](https://github.com/Kenbil1119/winmingle-low_level_pro_gramming/tree/main/0x03-debugging/3-convert_day.c)
 <details>
     <summary>What it does?</summary>
-Print in lowercase using only two putchar() call
+Convert day of the month to day of the year
 </details>
 
-- [3-print_alphabets.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-variables_if_else_while/3-print_alphabets.c)
+- [3-print_remaining_days.c](https://github.com/Kenbil1119/winmingle-low_level_pro_gramming/tree/main/0x03-debugging/3-print_remaining_days.c)
 <details>
     <summary>What it does?</summary>
-Print in lower and upper case using only three putchar() call
+Just as the file name, the function print the remaining days left in a year
 </details>
 
-- [4-print_alphabt.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-variables_if_else_while/4-print_alphabt.c)
+## Main Function Code
+- [0-main.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x03-debugging/0-main.c)
 <details>
     <summary>What it does?</summary>
-Print in lowercase except 'q' & 'e', using only two putchar() call
+Test 0-positive_or_negative() fumction file.
 </details>
 
-- [5-print_numbers.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-variables_if_else_while/5-print_numbers.c)
+- [1-main.c](https://github.com/Kenbil1119/winmingle-low_level_pro_gramming/tree/main/0x03-debugging/1-main.c)
+
+- [2-main.c](https://github.com/Kenbil1119/winmingle-low_level_pro_gramming/tree/main/0x03-debugging/2-main.c)
 <details>
     <summary>What it does?</summary>
-Print all single digit numbers using only two putchar() call
+Test 2-largest_number.c file
 </details>
 
-- [6-print_numberz.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-variables_if_else_while/6-print_numberz.c)
+- [3-main_b.c](https://github.com/Kenbil1119/winmingle-low_level_pro_gramming/tree/main/0x03-debugging/3-main_b.c)
 <details>
     <summary>What it does?</summary>
-Print all single digit numbers of base 10 from 0 using putchar() call with integer type
+Test print_remaining_days();
 </details>
-
-- [7-print_tebahpla.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-variables_if_else_while/7-print_tebahpla.c)
-<details>
-    <summary>What it does?</summary>
-Print alphabet in lowercase and in reverse order,  from 'z' to 'a'
-</details>
-
-- [8-print_base16.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-variables_if_else_while/8-print_base16.c)
-<details>
-    <summary>What it does?</summary>
-Print Hexadecimal
-</details>
-
-- [9-print_comb.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-variables_if_else_while/9-print_comb.c)
-<details>
-    <summary>What it does?</summary>
-Print all possible combination of single digit numbers separate with space ' ' and comma ','.
- </details>
-
-- [100-print_comb3.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-variables_if_else_while/100-print_comb3.c)
-<details>
-    <summary>What it does?</summary>
-Print all possible of single combination of two digits numbers.
-_(No Repetition of combination, e.g. 01, 10)_
-</details>
-
-- [101-print_comb4.c](https://github.com/Kenbil1119/winmingle-low_level_programming/tree/main/0x01-variables_if_else_while/101-print_comb4.c)
-<details>
-    <summary>What it does?</summary>
-Print all possible of single combination of three digits numbers
-_(No Repetition of combination, e.g. 001, 010, 100)_
- </details>
-
 ---
 > [!NOTE]                                                       
 > _This is a C code source file that print to the stdout, not a complete program_
