@@ -46,6 +46,7 @@ Test 2-largest_number.c file
     <summary>What it does?</summary>
 Test print_remaining_days();
 </details>
+
 ---
 > [!NOTE]
 > _This is a C code source file that print to the stdout, not a complete program_
