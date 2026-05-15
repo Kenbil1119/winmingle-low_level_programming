@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * _putchar - Print Character
@@ -13,9 +13,5 @@
 
 int _putchar(int c)
 {
-	if (c <= 0)
-		return (EOF);
-	putc(c, stdout);
-
-	return (c);
+	return (write(1, &c, 1));
 }
