@@ -15,17 +15,16 @@
 
 void print_number(long n)
 {
-    if (n < 0)
-    {
-        _putchar('-');
-        n *= -1;
-    }
+	if (n < 0)
+	{
+		_putchar('-');
+		n *= -1;
+	}
 
-    if (n / 10) {
-        print_number(n / 10);
-    }
+	if (n / 10)
+		print_number(n / 10);
 
-    _putchar((n % 10) + '0');
+	_putchar((n % 10) + '0');
 }
 
 /**
@@ -44,10 +43,9 @@ void print_number(long n)
 
 int add(int a, int b)
 {
-    long sum = (long)a + b;
-    
-    print_number(sum);
-    _putchar('\n');
-    
-    return ((int)sum);
-}
+	long sum = (long)a + b;
+
+	print_number(sum);
+	_putchar('\n');
+
+	return ((int)sum);

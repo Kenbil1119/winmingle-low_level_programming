@@ -2,8 +2,8 @@
 
 /**
  * main - Print three digits numbers
- * Description: Print all possible of single combination of three digits numbers
- *	(No Repetition of combination, e.g. 001, 010, 100)
+ * Description: Print all possible single combinations of three digits
+ *	(No repetition of combination, e.g. 001, 010, 100)
  *
  * Return: 0
  *
@@ -19,12 +19,12 @@ int main(void)
 		for (j = 0; j <= 9; j++)
 			for (k = 0; k <= 9; k++)
 			{
-				if ((i >= j | i >= k) || (j <= i | j>= k))
+				if (i >= j || j >= k)
 					continue;
 				putchar(i + '0');
 				putchar(j + '0');
 				putchar(k + '0');
-			
+
 				if (k != 9)
 				{
 					putchar (',');

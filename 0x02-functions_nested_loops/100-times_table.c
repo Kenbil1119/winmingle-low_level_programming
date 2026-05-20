@@ -19,7 +19,7 @@ long highest_place_value(long);
 void print_times_table(int n)
 {
 	int x, y, xy;
-	
+
 	if (n > 15)
 		return;
 
@@ -28,7 +28,7 @@ void print_times_table(int n)
 		for (y = 0; y <= n; y++)
 		{
 			xy = x * y;
-			
+
 			if (y != 0 && xy < 10)
 				_putchar(' ');
 			if (y != 0 && xy < 100)
@@ -39,10 +39,14 @@ void print_times_table(int n)
 		}
 		_putchar('\n');
 	}
-
-	return;
 }
 
+/**
+ * print_number - Print a number using _putchar
+ * @n: Number to print
+ *
+ * Return: Nothing
+ */
 void print_number(long n)
 {
 	long rem = n, div = highest_place_value(n);
@@ -56,8 +60,6 @@ void print_number(long n)
 		}
 	else
 		_putchar(n + '0');
-
-	return;
 }
 
 /**
@@ -70,8 +72,6 @@ void separator(void)
 {
 	_putchar(',');
 	_putchar(' ');
-
-	return;
 }
 
 /**
@@ -86,12 +86,12 @@ void separator(void)
 long highest_place_value(long num)
 {
 	long highest = 1;
-	
+
 	while (num >= 10)
 	{
 		num /= 10;
 		highest *= 10;
 	}
-	
+
 	return (highest);
 }

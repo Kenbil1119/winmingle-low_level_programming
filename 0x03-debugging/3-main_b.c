@@ -19,7 +19,7 @@ int main(void)
 
 	printf("Input the date: ");
 	scanf("%02s %02s %04s", input_month, input_day, input_year);
-	
+
 	month = atoi(input_month);
 	day = atoi(input_day);
 	year = atoi(input_year);
@@ -29,5 +29,4 @@ int main(void)
 	print_remaining_days(month, day, year);
 
 	return (0);
-	
 }

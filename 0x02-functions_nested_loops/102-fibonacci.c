@@ -16,7 +16,7 @@ long highest_place_value(long);
 int main(void)
 {
 	int old = 1, new = 1, temp = 0;
-	
+
 	while (new < 50)
 	{
 		print_number((long)new);
@@ -28,7 +28,7 @@ int main(void)
 		temp = old;
 		old = new;
 		new = temp + old;
-		
+
 	}
 
 	return (0);
@@ -54,8 +54,6 @@ void print_number(long n)
 		}
 	else
 		_putchar(n + '0');
-
-	return;
 }
 
 /**
@@ -68,8 +66,6 @@ void separator(void)
 {
 	_putchar(',');
 	_putchar(' ');
-
-	return;
 }
 
 /**
@@ -84,12 +80,12 @@ void separator(void)
 long highest_place_value(long num)
 {
 	long highest = 1;
-	
+
 	while (num >= 10)
 	{
 		num /= 10;
 		highest *= 10;
 	}
-	
+
 	return (highest);
 }

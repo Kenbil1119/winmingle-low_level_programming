@@ -21,10 +21,10 @@ void times_table(void)
 		for (y = 0; y <= 9; y++)
 		{
 			xy = x * y;
-			
+
 			if (y != 0 && xy < 10)
 				_putchar(' ');
-			
+
 			if (xy > 9)
 			{
 				_putchar((xy / 10) + '0');
@@ -37,8 +37,6 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
-
-	return;
 }
 
 /**
@@ -51,6 +49,4 @@ void separator(void)
 {
 	_putchar(',');
 	_putchar(' ');
-
-	return;
 }

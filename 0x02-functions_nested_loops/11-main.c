@@ -12,7 +12,7 @@
 int main(void)
 {
 	int num[5] = {98, -1024, 0, 88, 124}, i;
-	
+
 	for (i = 0; i < 5; i++)
 	{
 		printf("From %d to 98:\n", num[i]);

@@ -26,7 +26,7 @@ int main(void)
 
 	print_number((long)sum_of_multiples);
 	_putchar('\n');
-	
+
 	return (0);
 }
 
@@ -51,8 +51,6 @@ void print_number(long n)
 		}
 	else
 		_putchar(n + '0');
-
-	return;
 }
 
 /**
@@ -67,12 +65,12 @@ void print_number(long n)
 long highest_place_value(long num)
 {
 	long highest = 1;
-	
+
 	while (num >= 10)
 	{
 		num /= 10;
 		highest *= 10;
 	}
-	
+
 	return (highest);
 }

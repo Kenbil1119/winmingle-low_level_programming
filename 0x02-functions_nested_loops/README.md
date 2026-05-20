@@ -80,7 +80,7 @@ _(No Repetition of combination, e.g. 001, 010, 100)_
  </details>
 
 ---
-> [!NOTE]                                                       
+> [!NOTE]
 > _This is a C code source file that print to the stdout, not a complete program_
 
 > [!TIP]

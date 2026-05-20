@@ -30,7 +30,7 @@ void jack_bauer(void)
 					_putchar(':');
 					_putchar(m2 + '0');
 					_putchar(m1 + '0');
-					
+
 					_putchar('\n');
 				}
 			}
@@ -40,6 +40,4 @@ void jack_bauer(void)
 		/*h1 = 0;*/
 		h2++;
 	}
-
-	return;
 }

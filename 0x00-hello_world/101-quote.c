@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 /**
- * Author: Usman Saheed
- * Program: WinMingle Community C Training
+ * main - Print text using putchar()
  * Description: This program prints each character (elements) of 'str' and
  *		a newline to the stdout using 'putchar()'
  *
- * Return: 0 if successful
+ * Return: 0
+ *
+ * Author: Usman Saheed
+ * Program: WinMingle Community C Training
  */
 
 int main(void)

@@ -20,7 +20,7 @@ void print_triangle(int size)
 		_putchar('\n');
 		return;
 	}
-	
+
 	while (size)
 	{
 		b = size;
@@ -39,5 +39,4 @@ void print_triangle(int size)
 		_putchar('\n');
 		size--;
 	}
-	return;
-}
+

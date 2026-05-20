@@ -3,7 +3,7 @@
 /**
  * _islower - Check for lowercase
  * Description: check and return if inputted character is lowercase
- * @c: Argument of type int. 
+ * @c: Argument of type int.
  *
  * Return: 1 if 'c' is lower, else return 0
  *

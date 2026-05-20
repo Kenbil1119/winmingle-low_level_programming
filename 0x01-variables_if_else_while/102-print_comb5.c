@@ -13,38 +13,22 @@
 
 int main(void)
 {
-	int a, b, i, j;
+	int a, b;
 
 	for (a = 0; a <= 9; a++)
 	{
 		for (b = 0; b <= 9; b++)
 		{
-			for (i = 0; i <= 9; i++)
+			putchar(a + '0');
+			putchar(b + '0');
+			if (a != 9 || b != 9)
 			{
-				while (j )
-				{
-					if (a == b)
-						if (i == a == j)
-							con
-					if (i > j)
-						continue;
-					putchar(a + '0');
-					putchar(b + '0');
-					putchar(' ');
-					putchar(i + '0');
-					putchar(j + '0');
-
-					if (j != 9)
-					{
-						putchar (',');
-						putchar (' ');
-					}
-					else
-					putchar(10);
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
+	putchar('\n');
 
 	return (0);
 }

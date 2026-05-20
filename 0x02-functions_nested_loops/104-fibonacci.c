@@ -16,7 +16,7 @@ long highest_place_value(long);
 int main(void)
 {
 	long o_term = 0, n_term = 1, f_term = o_term + n_term, term = 0;
-	
+
 	while (term <= 98)
 	{
 		print_number(f_term);
@@ -30,7 +30,7 @@ int main(void)
 		o_term = n_term;
 		n_term = f_term;
 		f_term = o_term + n_term;
-		
+
 		term++;
 	}
 
@@ -57,8 +57,6 @@ void print_number(long n)
 		}
 	else
 		_putchar(n + '0');
-
-	return;
 }
 
 /**
@@ -71,8 +69,6 @@ void separator(void)
 {
 	_putchar(',');
 	_putchar(' ');
-
-	return;
 }
 
 /**
@@ -87,12 +83,12 @@ void separator(void)
 long highest_place_value(long num)
 {
 	long highest = 1;
-	
+
 	while (num >= 10)
 	{
 		num /= 10;
 		highest *= 10;
 	}
-	
+
 	return (highest);
 }

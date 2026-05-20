@@ -22,7 +22,7 @@ int print_sign(int n)
 		_putchar('+');
 		i = 1;
 	}
-	
+
 	if (n == 0)
 	{
 		_putchar('0');

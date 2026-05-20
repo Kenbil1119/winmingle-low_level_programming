@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 /**
+ * main - Program print text using puts()
+ * Description: Prints "Programming is like building a multilingual puzzle"
+ *
+ * Return: 0
+ *
  * Author: Usman Saheed
  * Program: WinMingle Community C Training
- * Description: Prints "Programming is like building a multilingual puzzle"
- *			using puts()
  */
 
 int main(void)

@@ -35,7 +35,7 @@ int main(void)
 			_putchar('\n');
 	}
 
-	return(0);
+	return (0);
 }
 
 /**
@@ -52,7 +52,6 @@ void print_fizz(void)
 	for (i = 0; i < 4; i++)
 		_putchar(fizz[i]);
 
-	return;
 }
 
 /**
@@ -65,11 +64,10 @@ void print_buzz(void)
 {
 	char buzz[5] = "Buzz";
 	int i;
-	
+
 	for (i = 0; i < 4; i++)
 		_putchar(buzz[i]);
-	
-	return;
+
 }
 
 /**
@@ -97,6 +95,4 @@ void print_number(int n)
 		n %= highest;
 		highest /= 10;
 	}
-
-	return;
 }

@@ -17,7 +17,7 @@ int main(void)
 {
 	int o_term = 0, l_term = 1, n_term = o_term + l_term;
 	long sum = 0;
-	
+
 	while (n_term <= 4000000)
 	{
 		if (!(n_term % 2))
@@ -27,7 +27,7 @@ int main(void)
 		l_term = n_term;
 		n_term = o_term + l_term;
 	}
-	
+
 	print_number(sum);
 	_putchar('\n');
 
@@ -54,8 +54,6 @@ void print_number(long n)
 		}
 	else
 		_putchar(n + '0');
-
-	return;
 }
 
 /**
@@ -70,12 +68,12 @@ void print_number(long n)
 long highest_place_value(long num)
 {
 	long highest = 1;
-	
+
 	while (num >= 10)
 	{
 		num /= 10;
 		highest *= 10;
 	}
-	
+
 	return (highest);
 }

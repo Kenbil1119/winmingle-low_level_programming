@@ -13,7 +13,7 @@ void print_number(long);
  *
  * @n: Integer parameter for the number
  *
- * Return: 0
+ * Return: Nothing
  *
  * Author: Usman Saheed [www.github.com/kenbil1119/]
  * Program: WinMingle Community C Training
@@ -41,7 +41,6 @@ void print_to_98(int n)
 			else
 				_putchar('\n');
 		}
-	return;
 }
 
 /**
@@ -80,8 +79,6 @@ void print_number(long n)
 	}
 	else
 		_putchar(n + '0');
-
-	return;
 }
 
 /**
@@ -94,8 +91,6 @@ void separator(void)
 {
 	_putchar(',');
 	_putchar(' ');
-
-	return;
 }
 
 /**
@@ -110,7 +105,7 @@ void separator(void)
 long highest_place_value(long num)
 {
 	long highest = 1;
-	
+
 	/*while (num < 10)*/ /*First bug made*/
 	/*while (num > 10)*/ /*Second bug made*/
 	while (num >= 10)
@@ -118,6 +113,6 @@ long highest_place_value(long num)
 		num /= 10;
 		highest *= 10;
 	}
-	
+
 	return (highest);
 }
