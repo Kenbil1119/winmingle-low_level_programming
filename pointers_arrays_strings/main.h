@@ -10,6 +10,7 @@ void _puts(char *str);
 int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
+void separator(void);
 
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -23,6 +24,7 @@ int print_sign(int n);
 int _abs(int);
 
 int print_last_digit(int);
+long highest_place_value(long);
 
 void jack_bauer(void);
 
