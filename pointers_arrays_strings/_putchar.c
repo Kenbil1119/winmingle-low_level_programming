@@ -5,6 +5,8 @@
  * _putchar - Print Character
  * Description: Print character to the stdout using the putc()
  *
+ * @c: Integer Parameter to character
+ *
  * Return: 0
  *
  * Author: Usman Saheed

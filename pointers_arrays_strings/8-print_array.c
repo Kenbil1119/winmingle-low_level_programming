@@ -35,17 +35,17 @@ void print_array(int *a, int n)
 
 void print_number(long n)
 {
-        long rem = n, div = highest_place_value(n);
+	long rem = n, div = highest_place_value(n);
 
-        if (!(n < 10))
-                while (div >= 1)
-                {
-                        _putchar((rem / div) + '0');
-                        rem %= div;
-                        div /= 10;
-                }
-        else
-                _putchar(n + '0');
+	if (!(n < 10))
+		while (div >= 1)
+		{
+			_putchar((rem / div) + '0');
+			rem %= div;
+			div /= 10;
+		}
+	else
+		_putchar(n + '0');
 }
 
 /**
@@ -56,8 +56,8 @@ void print_number(long n)
 
 void separator(void)
 {
-        _putchar(',');
-        _putchar(' ');
+	_putchar(',');
+	_putchar(' ');
 }
 
 /**
@@ -71,13 +71,13 @@ void separator(void)
 
 long highest_place_value(long num)
 {
-        long highest = 1;
+	long highest = 1;
 
-        while (num >= 10)
-        {
-                num /= 10;
-                highest *= 10;
-        }
+	while (num >= 10)
+	{
+		num /= 10;
+		highest *= 10;
+	}
 
 	_putchar('\n');
 
