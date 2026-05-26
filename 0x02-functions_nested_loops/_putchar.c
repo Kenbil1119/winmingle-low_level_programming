@@ -4,6 +4,7 @@
 /**
  * _putchar - Print Character
  * Description: Print character to the stdout using the putc()
+ * @c: The character to print.
  *
  * Return: 0
  *
