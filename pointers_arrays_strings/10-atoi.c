@@ -1,36 +1,48 @@
 #include "main.h"
 
 /**
- * 
+ * _atoi - Convert string to digit
+ * Description: The function only returns any form of digit in the string.
+ *		No other character except negative sign if it come first.
+ *
+ * @s: Pointer to string address
+ *
+ * Return: The converted digit 'num'
+ *
+ * Author: Usman Saheed
+ * Program: WinMingle Community C Training
  */
 
-unsigned _atoi(char *s)
+int _atoi(char *s)
 {
-	int i, j = 0, convt[100] = {0};
-	unsigned num = 0;
+	int i, j, digit[1024] = {0}, place = 0;
+	int num = 0;
+
 	for (i = 0, j = 0; s[i] != '\0'; i++, j++)
 	{
 		if ((s[i] - '0' >= 0) && (s[i] - '0' <= 9))
 		{
-			convt[j] = s[i] - '0';
-			power_10
-		} else {
+			digit[j] = s[i] - '0';
+			place += 1;
+			
+			{
+				if (place == 1)
+					num = digit[j] * place;
+				else
+				{
+					num *= 10;
+					num += digit[j];
+				}
+			}
+		}
+		else
+		{
 			j -= 1;
 			continue;
 		}
 	}
-	ptr_convt = conv;
-	num = *ptr_convt;
+	if (s[0] == '-')
+		num = -num;
 
 	return (num);
-}
-
-int main(void)
-{
-	char *str = "012abc345CDE678F9";
-	int convt = _atoi(str);
-
-	printf("%s is: %d after convtertion\n", str, conv);
-
-	return (0);
 }
