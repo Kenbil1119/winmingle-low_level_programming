@@ -23,7 +23,7 @@ char *cap_string(char *str)
 	for (i = 0; str[i]; i++)
 		for (j = 0; j < 3; j++)
 			if (str[i] == break_word[j])
-				if (str[i + 1] >= '@' && str[i + 1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 					str[i + 1] -= ('a' - 'A');
 
 	return (str);
