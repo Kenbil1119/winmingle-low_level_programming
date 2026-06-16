@@ -15,7 +15,7 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	unsigned i;
+	unsigned int i;
 	int match;
 
 	if (accept == NULL || s == NULL)
