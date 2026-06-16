@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <unistd.h>
+#include <stdbool.h>
 
 int _putchar(int c);
 void _puts(char *str);
@@ -65,5 +66,9 @@ void puts_half(char *str);
 long highest_place_value(long num);
 
 char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *s, char c);
+unsigned int _strspn(char *s, char *accept);
+char *_strpbrk(char *s, char *accept);
 
 #endif
