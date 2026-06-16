@@ -15,14 +15,15 @@
 
 char *_strchr(char *s, char c)
 {
-	unsigned i;
+	unsigned int i;
 
 	if (s == NULL)
 		return (0);
 	if (c == 0)
-		return(s);
+		return (s);
 
-	for (i = 0; s[i] != c && s[i]; i++);
+	for (i = 0; s[i] != c && s[i]; i++)
+		;
 
 	return (s + i);
 }

@@ -15,7 +15,7 @@ char rotate(char);
 
 char *rot13(char *str)
 {
-	unsigned i;
+	unsigned int i;
 
 	if (str == NULL)
 		return (NULL);

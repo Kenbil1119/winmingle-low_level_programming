@@ -15,7 +15,7 @@
 
 char *string_toupper(char *str)
 {
-	unsigned i;
+	unsigned int i;
 
 	if (str == NULL)
 		return (str);

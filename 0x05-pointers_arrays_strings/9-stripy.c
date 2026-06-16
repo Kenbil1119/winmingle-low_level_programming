@@ -2,13 +2,14 @@
 
 /**
  * _strcpy - Funtion copy src to dest
- * Description: The string address pointed to by 'src' (source) is copy to the address pointed by 'dest' (destination).
+ * Description: The string pointed to by 'src' (source) is copy to
+ *		the address pointed by 'dest' (destination).
  *		'dest' should point to a valid writable address
  *		with sufficient space to hold source.
  *
  * @dest: Pointer to the destination
  * @src: Pointer to the source
- * 
+ *
  * Return: 'dest' after the copy
  *
  * Author: Usman Saheed

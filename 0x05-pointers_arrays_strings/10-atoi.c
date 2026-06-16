@@ -24,15 +24,12 @@ int _atoi(char *s)
 		{
 			digit[j] = s[i] - '0';
 			place += 1;
-			
+			if (place == 1)
+				num = digit[j] * place;
+			else
 			{
-				if (place == 1)
-					num = digit[j] * place;
-				else
-				{
-					num *= 10;
-					num += digit[j];
-				}
+				num *= 10;
+				num += digit[j];
 			}
 		}
 		else
