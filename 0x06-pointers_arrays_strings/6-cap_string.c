@@ -13,7 +13,7 @@
 
 char *cap_string(char *str)
 {
-	unsigned i;
+	unsigned int i;
 	int j;
 	char break_word[3] = {' ', '\n', '\t'};
 

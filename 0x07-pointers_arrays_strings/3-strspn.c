@@ -15,8 +15,8 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned i = 0, j, match = 0;
-	
+	unsigned int i = 0, j, match = 0;
+
 	if (s == NULL || accept == NULL)
 		return (0);
 

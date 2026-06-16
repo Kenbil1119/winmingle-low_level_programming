@@ -13,7 +13,7 @@
  * Program: WinMingle Community C Training
  */
 
-char* _strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j, length_dest;
 
@@ -21,11 +21,11 @@ char* _strncat(char *dest, char *src, int n)
 		return (dest);
 	if (src != NULL && dest == NULL)
 		return (src);
-	
 	if (src == NULL && dest == NULL)
 		return (NULL);
 
-	for (length_dest = 0; dest[length_dest]; length_dest++);
+	for (length_dest = 0; dest[length_dest]; length_dest++)
+		;
 
 	for (i = 0, j = length_dest; i < n; i++, j++)
 	{

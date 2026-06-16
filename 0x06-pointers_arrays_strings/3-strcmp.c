@@ -15,7 +15,7 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	unsigned i;
+	unsigned int i;
 	int diff = 0;
 
 	if (s1 == NULL || s2 == NULL)
