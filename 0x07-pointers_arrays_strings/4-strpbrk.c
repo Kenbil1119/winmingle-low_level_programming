@@ -31,8 +31,7 @@ char *_strpbrk(char *s, char *accept)
 		}
 		if (match)
 			break;
-		else
-			s += 1;
+		s += 1;
 	}
 
 	return (s);
