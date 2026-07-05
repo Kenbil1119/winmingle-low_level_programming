@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen - Read and Return the length of a string
+ * _strlen_recursion - Read and Return the length of a string
  * Description: Excluding the terminator character '\0'
  *
  * @s: Pointer to the string address
