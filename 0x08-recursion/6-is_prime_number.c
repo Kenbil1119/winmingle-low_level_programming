@@ -38,8 +38,8 @@ int check_number(int base, int shift)
 {
 	if (shift == 1)
 		return (1);
-	if (!(base % shift)) 
+	if (!(base % shift))
 		return (0);
-	
-	return(check_number(base, shift - 1));
+
+	return (check_number(base, shift - 1));
 }

@@ -50,5 +50,5 @@ int check_sqrt(int n, int root)
 		return (-1);
 	if (root * root == n)
 		return (root);
-	return(check_sqrt(n, root - 1));
+	return (check_sqrt(n, root - 1));
 }
